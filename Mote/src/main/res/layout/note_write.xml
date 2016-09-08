@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.szxb.tangren.myapplication.utils.SildingFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_null"></include>
+
+    <!--<com.szxb.tangren.myapplication.utils.FloatLabelLaout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">-->
+
+    <EditText
+        android:id="@+id/title"
+        style="@style/xml_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:hint="标题"
+        android:maxLength="15"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+    <!--</com.szxb.tangren.myapplication.utils.FloatLabelLaout>-->
+
+    <!--<com.szxb.tangren.myapplication.utils.FloatLabelLaout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">-->
+
+    <EditText
+        android:id="@+id/context"
+        style="@style/xml_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:hint="我想说："
+        android:lineSpacingExtra="5dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/tabtext"
+        android:textSize="16sp" />
+    <!--</com.szxb.tangren.myapplication.utils.FloatLabelLaout>-->
+
+</com.szxb.tangren.myapplication.utils.SildingFinishLayout>

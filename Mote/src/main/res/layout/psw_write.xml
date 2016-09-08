@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.szxb.tangren.myapplication.utils.SildingFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_null"></include>
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/xml_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:hint="应用名称"
+        android:imeOptions="actionNext"
+        android:maxLength="15"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/zhanghao"
+        style="@style/xml_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:hint="账号"
+        android:imeOptions="actionNext"
+        android:maxLength="15"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/psw"
+        style="@style/xml_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:hint="密码"
+        android:imeOptions="actionNext"
+        android:inputType="textVisiblePassword"
+        android:maxLength="20"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/content"
+        style="@style/xml_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:hint="留言："
+        android:lineSpacingExtra="5dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/tabtext"
+        android:textSize="16sp" />
+    <!--</com.szxb.tangren.myapplication.utils.FloatLabelLaout>-->
+
+</com.szxb.tangren.myapplication.utils.SildingFinishLayout>

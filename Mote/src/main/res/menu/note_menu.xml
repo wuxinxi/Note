@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/remoke"
+        android:icon="@mipmap/ic_undo_white_24dp"
+        android:orderInCategory="100"
+        android:title="重做"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/redo"
+        android:icon="@mipmap/ic_undo_white_25dp"
+        android:orderInCategory="100"
+        android:title="撤销"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/label"
+        android:icon="@mipmap/ic_loyalty_white_24dp"
+        android:orderInCategory="100"
+        android:title="管理标签"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/save"
+        android:icon="@mipmap/ic_done_white_24dp"
+        android:orderInCategory="100"
+        android:title="保存"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:elevation="5dp">
+
+    <LinearLayout
+        style="@style/xml_wh"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/del"
+            style="@style/dialog_xml_wh"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="删除"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/edit"
+            style="@style/dialog_xml_wh"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="编辑"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/copy"
+            style="@style/dialog_xml_wh"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="复制笔记文本内容"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/share"
+            style="@style/dialog_xml_wh"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="分享笔记"
+
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

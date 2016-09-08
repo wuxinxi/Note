@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:elevation="5dp">
+
+    <LinearLayout
+        style="@style/xml_wh"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/markdown"
+            style="@style/xml_wh"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_markdown"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/fab_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="22dp"
+                android:gravity="center"
+                android:text="记事录"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wenben"
+            style="@style/xml_wh"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_fab"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/fab_markdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="22dp"
+                android:gravity="center"
+                android:text="密码录"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/xinqing"
+            style="@style/xml_wh"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_bg"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/xinqing_iamg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/xinqing" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="22dp"
+                android:gravity="center"
+                android:text="心情录"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

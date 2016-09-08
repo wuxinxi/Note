@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/share"
+        android:icon="@mipmap/ic_share_white_24dp"
+        android:orderInCategory="80"
+        android:title="share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_export"
+        android:orderInCategory="100"
+        android:title="笔记导出"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_import"
+        android:orderInCategory="100"
+        android:title="笔记导入"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/proposal"
+        android:orderInCategory="100"
+        android:title="提建议"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never" />
+
+</menu>
